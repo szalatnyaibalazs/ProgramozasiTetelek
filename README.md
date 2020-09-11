@@ -25,3 +25,6 @@
 - Kivalasztas() metodus
 - Hányadik az 50
 - Kiírni a helyét a tömbben
+## Keresés(lineáris)
+- Kereses() metódus
+- Van-e benne 50 és ha van hányadik?

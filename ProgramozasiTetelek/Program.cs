@@ -82,7 +82,27 @@ namespace ProgramozasiTetelek
             Kivalasztas();
 
 
+            Kereses();
+
+
             Console.ReadKey();
+        }
+
+        private static void Kereses()
+        {
+            int i = 0;
+            while (i<szamok.Length && szamok[i]!=50)
+            {
+                i++;
+            }
+            if (i< szamok.Length)
+            {
+                Console.WriteLine("Van 50 a {0}. indexen",i+1);
+            }
+            else
+            {
+                Console.WriteLine("Sajnos nincs ilyen");
+            }
         }
     }
 }
