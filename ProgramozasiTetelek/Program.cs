@@ -16,14 +16,27 @@ namespace ProgramozasiTetelek
             {
                 Console.Write("{0}, ",szamok[i]);
             }
+            Console.WriteLine();
+        }
+        private static void Összegzes()
+        {
+            int osszeg = 0;
+            for (int i = 0; i < szamok.Length; i++)
+            {
+                //osszeg = osszeg + szamok[i];
+                osszeg += szamok[i];
+            }
+            Console.WriteLine("A számok összege:{0}", osszeg);
         }
         static void Main(string[] args)
         {
             TombKiiras();
 
+
+            Összegzes();
+
+
             Console.ReadKey();
         }
-
-        
     }
 }

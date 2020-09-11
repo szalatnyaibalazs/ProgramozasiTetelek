@@ -9,3 +9,7 @@
   - Nem ad vissza értéket
   - Nincs paramétere
   - A tömb elemeit egy sorba vesszõvel elválasztva console-ra írja 
+## Ez lesz az összegzés
+- Összegzes() metódus létrehozása
+- Összegzés tétele a tömbön
+- Eredmény kiírása a console-ra
