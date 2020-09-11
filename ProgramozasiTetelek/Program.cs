@@ -36,7 +36,22 @@ namespace ProgramozasiTetelek
             Összegzes();
 
 
+            Megszamolas();
+
             Console.ReadKey();
+        }
+
+        private static void Megszamolas()
+        {
+            int s = 0;
+            for (int i = 0; i < szamok.Length; i++)
+            {
+                if (szamok[i]%3==0)
+                {
+                    s++;
+                }
+            }
+            Console.WriteLine("3-mal osztható számok száma:{0}",s);
         }
     }
 }
