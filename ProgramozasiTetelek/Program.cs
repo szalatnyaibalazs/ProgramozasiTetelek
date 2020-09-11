@@ -8,13 +8,13 @@ namespace ProgramozasiTetelek
 {
     class Program
     {
-        static int[] szamok = new int[] { 12, 7, 2, 4, 45, 99, 1, 8, 95, 50,};
+        static int[] szamok = new int[] { 12, 7, 2, 4, 45, 99, 1, 8, 95, 50, };
 
         private static void TombKiiras()
         {
             for (int i = 0; i < szamok.Length; i++)
             {
-                Console.Write("{0}, ",szamok[i]);
+                Console.Write("{0}, ", szamok[i]);
             }
             Console.WriteLine();
         }
@@ -59,11 +59,11 @@ namespace ProgramozasiTetelek
         static void Kivalasztas()
         {
             int i = 0;
-            while (szamok[i] !=50)
+            while (szamok[i] != 50)
             {
                 i++;
             }
-            Console.WriteLine("A(z) {0}. indexű helyen van az 50",i);
+            Console.WriteLine("A(z) {0}. indexű helyen van az 50", i);
         }
         static void Main(string[] args)
         {
@@ -85,7 +85,22 @@ namespace ProgramozasiTetelek
             Kereses();
 
 
+            Maximum();
+
             Console.ReadKey();
+        }
+
+        private static void Maximum()
+        {
+            int max = 1;
+            for (int i = 0; i < szamok.Length; i++)
+            {
+                if (szamok[i]>szamok[max])
+                {
+                    max = i;
+                }
+            }
+            Console.WriteLine("A legnagyobb szám:{0}, és az indexe:{1}",szamok[max],max);
         }
 
         private static void Kereses()

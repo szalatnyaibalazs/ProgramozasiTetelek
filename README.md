@@ -28,3 +28,6 @@
 ## Keresés(lineáris)
 - Kereses() metódus
 - Van-e benne 50 és ha van hányadik?
+## Maximum keresés
+- Maximum() metodus
+- kiírni a legnagyobb elemet
