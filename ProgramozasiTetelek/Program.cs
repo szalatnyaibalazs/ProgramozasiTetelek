@@ -56,6 +56,15 @@ namespace ProgramozasiTetelek
                 Console.WriteLine("Nincs");
             }
         }
+        static void Kivalasztas()
+        {
+            int i = 0;
+            while (szamok[i] !=50)
+            {
+                i++;
+            }
+            Console.WriteLine("A(z) {0}. indexű helyen van az 50",i);
+        }
         static void Main(string[] args)
         {
             TombKiiras();
@@ -68,6 +77,9 @@ namespace ProgramozasiTetelek
 
 
             Eldontes();
+
+
+            Kivalasztas();
 
 
             Console.ReadKey();
