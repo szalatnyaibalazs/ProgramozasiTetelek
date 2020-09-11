@@ -17,3 +17,7 @@
 - Megyszamolas() metódus
 - Hány 3-mal osztható szám van a tömbben
 - Console-ra kiírás
+## Eldöntés
+- Eldontes() metódus létrehozása
+- Van-e a tömbben 69?
+- Kiírni hogy "van" vagy "nincs"
